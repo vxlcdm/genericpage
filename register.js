@@ -670,7 +670,7 @@ abc();
 
 
 function closeSignup() {
-    window.location.href="profile.html"
+    window.location.href="index.html"
 }
 
 const redirectLogin=()=>{

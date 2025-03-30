@@ -1,5 +1,5 @@
 function closeLogin() {
-     window.location.href="profile.html"
+     window.location.href="index.html"
 }
 
 const redirectSignup=()=>{
@@ -121,7 +121,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         if(parseduser.password === pass)
         {
             localStorage.setItem("user", JSON.stringify(parseduser));
-            window.location.href= "profile.html";
+            window.location.href= "index.html";
         }
         else{
             // alert("INCORRECT DETSALS");
