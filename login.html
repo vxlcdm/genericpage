@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    
+</head>
+<body>
+    <div class="parent-login-container">
+
+
+        <button class="close-btn" onclick="closeLogin()">&times;</button>
+
+
+        <div class="side-image-div">
+            <div class="side-image-child-div">
+
+            </div>
+        </div>
+
+
+
+        <div class="login-form-whole">
+            <h2>Login</h2>
+            <form class="form-div-container" id="login-form" novalidate autocomplete="off">
+
+                <div class="input-group-div inputbox-box">
+                    <div id="shakebox" class="input-child-div">
+                        <i class="fas fa-envelope"></i>
+                    <input id="email" type="email" placeholder="Email / Phone / Username" required>
+                    </div>
+                     <p id="error-message" class="Error-msg"></p>
+                </div>
+               
+                <div class="input-group-div inputbox-box">
+                    <div id="shakebox1" class="input-child-div">
+                        <i class="fas fa-lock"></i>
+                    <input id="pass" type="password" id="password" placeholder="Password" required>
+                    <i class="fas fa-eye toggle-password" onclick="togglePassword()"></i>
+                    </div>
+
+                    <p id="error-message1" class="Error-msg1"></p>
+                </div>
+
+
+                <div class="options">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+
+
+                <button type="submit" class="login-btn">Log in</button>
+            </form>
+
+
+            <div class="divider">Or Continue With</div>
+
+
+            <div class="social-login">
+                <button class="google">Google</button>
+                <button class="facebook">Facebook</button>
+                <button class="apple">Apple</button>
+            </div>
+
+
+            <div class="signup">Don't have an account? 
+
+                <a href="#" onclick="redirectSignup()">Sign Up here</a></div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="login.js">
+    </script>
+</body>
+</html>
