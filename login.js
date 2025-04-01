@@ -121,7 +121,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         if(parseduser.password === pass)
         {
             localStorage.setItem("user", JSON.stringify(parseduser));
-            window.location.href= "index.html";
+            window.location.href= "index.html#profile";
         }
         else{
             // alert("INCORRECT DETSALS");

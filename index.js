@@ -307,7 +307,7 @@ document.getElementById('logout-button').addEventListener("click", function(){
     console.log("kuch clkicj hua");
     
     localStorage.removeItem("user");
-    window.location.href="profile.html";
+    window.location.href="index.html";
 });
 
 
