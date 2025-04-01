@@ -292,6 +292,7 @@ if(user.trim()!=="")
 
 
     hideCred();
+    showDisplay();
      
 }
 
